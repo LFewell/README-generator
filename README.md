@@ -10,4 +10,4 @@ To install type npm i inquirer in your VSC terminal.
 ## License
 This generator allows you to quickly and easily create README files for your projects
 ## Contact
-LFewell
+LincolnTFewell@gmail.com
