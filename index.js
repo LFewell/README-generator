@@ -3,7 +3,7 @@ const inquirer = require('inquirer');
 const fs = require('fs');
 const util = require('util');
 // const template = require("./utils/generateMarkdown");
-const generateMarkdown = require('./utils/generateMarkdown');
+const template = require('./utils/generateMarkdown');
 // TODO: Create an array of questions for user input
 const questions = () => {
     return inquirer.prompt([
@@ -41,7 +41,7 @@ const questions = () => {
         {
             type: "input",
             name: "contact",
-            message: "Enter Github username"
+            message: "Enter Email or Github link"
         },
     ])
 };
@@ -52,7 +52,7 @@ const writeToFile = util.promisify(fs.writeFile);
 // TODO: Create a function to initialize app
 const init = () => {
     questions()
-        .then((data) => writeToFile("README.md", generateMarkdown(data)))
+        .then((data) => writeToFile("README.md", template(data)))
 }
 
 // Function call to initialize app

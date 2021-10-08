@@ -1,13 +1,13 @@
-# RE
+# README Generator
 ## Description
-ddddddd
+This generator allows you to quickly and easily create README files for your projects
 ## Install
-fdgfdgdfgfd
+To install type npm i inquirer in your VSC terminal.
 ## Use
-treyhrtytr
+ To use type node index.js and answer the questions in VSC terminal
 ## Credits
-dfgdfg
+
 ## License
-ddddddd
+This generator allows you to quickly and easily create README files for your projects
 ## Contact
-hgfhfghg
+LFewell
