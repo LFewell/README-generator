@@ -37,21 +37,25 @@ const questions = () => {
       name: "license",
       message: "Choose a license for this project",
       choices: [
-        "GUN AGPLv3",
+        "GNU AGPLv3",
         "GNU GPLv3",
         "GNU LGPLv3",
         "Mozilla Public License 2.0",
         "Apache License 2.0",
         "MIT License",
-        "Boost Software License 1.0",
-        "The Unlicense",
+        "Boost Software License 2.0",
       ],
     },
     {
       type: "input",
       name: "contact",
-      message: "Enter Email or Github link",
+      message: "Enter Email address",
     },
+    {
+      type: "input",
+      name: "username",
+      message: "Enter your GitHub username",
+    }
   ]);
 };
 
