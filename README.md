@@ -15,6 +15,7 @@ This generator allows you to quickly and easily create README files for your pro
 -[Contact](#contact)
 ## Install
 To install type npm i inquirer into your VSC terminal.
+For additional help, watch the install video [HERE](https://watch.screencastify.com/v/dmg8RLael1epkJwZ73hs)
 ## Use
 To use type node index.js into your VSC terminal
 ## Credits
